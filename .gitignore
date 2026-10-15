@@ -1,0 +1,25 @@
+# Target and build directories
+backend/target/
+frontend/dist/
+frontend/node_modules/
+.m2/
+
+# Environment and sensitive credential files
+.env
+*.env.local
+*.env.*.local
+.env.*
+!.env.example
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Maven wrapper and temporary files
+*.class
+*.jar
+*.war
